@@ -41,6 +41,13 @@
 		</plugins>
 	</build>
 
+	<!-- Distribution Management -->
+	<scm>
+		<connection>scm:git:git@github.com:ashissharma619/nexus--maven-samples.git</connection>
+		<developerConnection>scm:git:git@github.com:ashissharma619/nexus--maven-samples.git</developerConnection>
+		<url>https://github.com/ashissharma619/nexus--maven-samples.git</url>
+		<tag>v@{project.version}</tag>
+	</scm>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexusdeploymentrepo</id>
